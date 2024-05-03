@@ -1,13 +1,13 @@
-baseURL = "https://peterampazzo.github.io/project-website-template/"
-title = "Project Title"
+baseURL = "https://github.com/Frederik-N-H-Lundgren/CSS-Amazon_Pet_Items/"
+title = "Buy Stuff for your pet!!"
 description = "This is a project description"
 relativeURLs = true
 theme = "theme" 
 [params]
-    authors = ["Henrik Nielsen", "Inga Jensen", "Mikkel Andersen"]
+    authors = ["Fredeirk Lundgren", "Weinan Xiong"]
     notebook = "/explainer-notebook.html"
     data = "https://drive.google.com"
-    github = "https://github.com/peterampazzo/project-website-template"
+    github = "https://github.com/Frederik-N-H-Lundgren/CSS-Amazon_Pet_Items"
     [[params.nav]]
         label = "Data"
         link = "/data-description"
