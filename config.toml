@@ -1,4 +1,4 @@
-baseURL = "https://github.com/Frederik-N-H-Lundgren/CSS-Amazon_Pet_Items/"
+baseURL = "https://github.com/Frederik-N-H-Lundgren/frederik-n-h-lundgren.github.io"
 title = "Buy Stuff for your pet!!"
 description = "This is a project description"
 relativeURLs = true
@@ -7,7 +7,7 @@ theme = "theme"
     authors = ["Fredeirk Lundgren", "Weinan Xiong"]
     notebook = "/explainer-notebook.html"
     data = "https://drive.google.com"
-    github = "https://github.com/Frederik-N-H-Lundgren/CSS-Amazon_Pet_Items"
+    github = "https://github.com/Frederik-N-H-Lundgren/frederik-n-h-lundgren.github.io"
     [[params.nav]]
         label = "Data"
         link = "/data-description"
