@@ -6,7 +6,7 @@ theme = "theme"
 [params]
     authors = ["Fredeirk Lundgren", "Weinan Xiong"]
     notebook = "/explainer-notebook.html"
-    data = "https://drive.google.com"
+    data = "https://drive.google.com/drive/folders/16yvSK5YmO1NO6kwBjXCla8SDcDmi7hDN?usp=sharing"
     github = "https://github.com/Frederik-N-H-Lundgren/frederik-n-h-lundgren.github.io"
     [[params.nav]]
         label = "Community"
