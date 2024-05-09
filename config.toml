@@ -12,7 +12,7 @@ theme = "theme"
         label = "Community"
         link = "/data-description"
     [[params.nav]]
-        label = "Fun Facts"
+        label = "Item Recommendation"
         link = "/network-analysis"
     [[params.nav]]
         label = "Surprise"
