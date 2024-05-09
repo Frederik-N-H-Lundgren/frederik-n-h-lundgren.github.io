@@ -1,36 +1,20 @@
 ---
-title: Data description
+title: Community Analysis
 prev: "/"
 next: network-analysis
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nulla tellus, tempus sed lobortis quis, venenatis ac ante. Maecenas accumsan augue ultricies metus hendrerit, in ultrices urna fringilla. Suspendisse lobortis egestas magna, sit amet fermentum ligula tincidunt vitae. Suspendisse cursus non dui a vulputate. Cras vestibulum vulputate enim eu placerat. Ut scelerisque semper justo sit amet auctor. Aliquam sit amet iaculis tortor.
+As mentioned the full dataset did not make a fully connected graph, and instead many subnetworks appeared. The largest connected component consists of 21.627 products. This component helped understand what factors influence the purchasing patterns of pet supply customers. When computing community splits on the largest connected component, we can group the purchases, with items that they are often more bought with than others. This results in a split, that we can visualize, with each community of items bought together having different colors.
 
-> Nulla in justo hendrerit, tincidunt mauris et, porta est. Donec in leo vitae est ultrices dapibus id nec tortor. Maecenas ut ipsum eu nisl cursus facilisis scelerisque eu ex. Aliquam euismod elementum libero, at vehicula ipsum.
+![](/images/largest_component.png)
 
-Nam commodo lorem quis tortor euismod, ut ultrices orci aliquet. Sed eget dui nec sem ullamcorper convallis id nec ante. Aliquam ultricies a massa quis semper. Donec suscipit augue ut sagittis hendrerit. Aliquam erat volutpat. Proin aliquet maximus nibh, id aliquet justo maximus at. Sed accumsan ante id aliquam pellentesque. 
+We can see some really clear communities, with some being larger than others. To understand what the items in each community are, we can use the reviews to get an understanding.
 
-![](/images/dtu-logo.png)
+Word clouds are produced that can fit to each community. In the word clouds we typically see one animal being very large, meaning it’s mentioned a lot, with a few other words also appearing large, that give good indication in what the items are. These are for example in group 0: Bird and cage, in group 1: Dog and brush. 
 
-Aliquam nec hendrerit quam. Suspendisse maximus eros sollicitudin, accumsan turpis eu, blandit nulla. Nunc lorem elit, molestie at libero gravida, placerat consectetur ante. Sed tincidunt viverra tellus a vehicula.
+![](/images/word_cloud.png)
+
+A way to further understand the items in each community was to look at the IDF of the words used to the reviews. Here we can see what is more unique for the groups, and what defines them, and we do not have non-important words like “use” taking over. These are shown in the [Explainer Notebook](explainer-notebook.html), for the 5 largest communities, to complete our understanding of the items within each group.
+From the community analysis we found that people tend to buy multiple items, that are for the same animal, and are within the same category of item. So bird seeds are also bought with a bird feeder. This is the main factor that results in co-purchases, and something Amazon or potential buyers should notice to find their next recommendation.
 
 
-1. Lorem ipsum dolor sit amet
-1. Lorem ipsum dolor sit amet
-1. Lorem ipsum dolor sit amet
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam blandit lobortis turpis. Praesent porttitor, turpis eu posuere molestie, sem dolor scelerisque sapien, eu aliquet ante felis ac metus. Pellentesque semper ultricies urna. Aenean auctor, turpis ut convallis ultrices, eros tellus bibendum risus, eu varius velit ante et diam. 
-
-* Lorem ipsum dolor sit amet
-* Lorem ipsum dolor sit amet
-* Lorem ipsum dolor sit amet
-
-In suscipit lorem orci, eu placerat nibh dignissim ut. Nullam consequat nisl dui, in ornare risus porttitor sed. Integer vitae nibh semper purus ultrices rutrum. Pellentesque non diam ornare, imperdiet elit a, tempus lacus. Suspendisse viverra euismod dapibus.
-
-Suspendisse non tellus faucibus, dapibus leo at, elementum magna. Fusce quis ante ex. In non ex eleifend, luctus risus quis, dapibus velit. Nulla facilisi. Integer iaculis arcu at fermentum varius. Donec auctor dolor non dolor pulvinar luctus. Mauris vestibulum lacinia nisl, a dictum erat molestie sed. Vivamus vel blandit turpis, nec sollicitudin massa. Nunc velit eros, tristique elementum congue eget, auctor dictum tellus. 
-
-Quisque iaculis, sem quis imperdiet faucibus, nunc lorem feugiat purus, vestibulum condimentum turpis turpis ut ante. Donec vestibulum lectus ut ullamcorper condimentum. Curabitur fermentum nulla vitae arcu sollicitudin pulvinar.
-
-<img src="/images/dtu-logo.png" width="200" />
-
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse eu tellus ut erat porttitor luctus. Vivamus aliquam auctor massa, in auctor orci. Ut quis enim ut lorem consectetur blandit dictum eu mauris.
