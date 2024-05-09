@@ -1,5 +1,5 @@
 ---
-title: Graph Analysis
+title: Analysis
 layout: single
 next: data-description
 ---
