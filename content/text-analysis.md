@@ -3,6 +3,16 @@ title: Enjoy
 prev: network-analysis
 ---
 
+![Large Image](/images/joey1.png){: .large-image }
+
+<div class="photo-grid">
+  ![Image 2](/images/joey2.png){: .photo }
+  ![Image 3](/images/joey3.png){: .photo }
+  ![Image 4](/images/joey4.png){: .photo }
+  ![Image 5](/images/joey5.png){: .photo }
+  ![Image 6](/images/joey6.png){: .photo }
+</div>
+
 <style>
   .large-image {
     width: 50%; /* Adjust the width as needed */
@@ -17,19 +27,9 @@ prev: network-analysis
     margin-top: 20px;
   }
 
-  .photo-grid img {
+  .photo {
     width: 100%;
     height: auto;
     border-radius: 5px; /* Optional: adds a rounded border to images */
   }
 </style>
-
-<img src="/images/joey1.png" class="large-image" />
-
-<div class="photo-grid">
-  <img src="/images/joey2.png" alt="Image 2" />
-  <img src="/images/joey3.png" alt="Image 3" />
-  <img src="/images/joey4.png" alt="Image 4" />
-  <img src="/images/joey5.png" alt="Image 5" />
-  <img src="/images/joey6.png" alt="Image 6" />
-</div>
