@@ -1,7 +1,7 @@
 ---
 title: Graph Analysis
 layout: single
-next: data-description
+next: Community Analysis
 ---
 This webpage is an overview of our findings of our project on co-purchases of pet supplies, on Amazon. We did this project because of the love for our dog, and the knowledge that every pet brings happiness. But it is not always easy to know which toys to buy, or snacks to stock up on. This is why we wanted to analyze the co-purchase patterns of Amazon pet supplies and answer if there is a relationship between the price of a pet supply product and the sentiment of its reviews, and if higher-priced products tend to receive higher ratings compared to lower-priced alternatives.
 We also wanted to know which factors influence the purchasing patterns of pet supply customers, and how these factors affect the product review.
