@@ -1,7 +1,7 @@
 ---
 title: Community Analysis
 prev: "/"
-next: network-analysis
+next: Community Analysis
 ---
 
 As mentioned the full dataset did not make a fully connected graph, and instead many subnetworks appeared. The largest connected component consists of 21.627 products. This component helped understand what factors influence the purchasing patterns of pet supply customers. When computing community splits on the largest connected component, we can group the purchases, with items that they are often more bought with than others. This results in a split, that we can visualize, with each community of items bought together having different colors.
