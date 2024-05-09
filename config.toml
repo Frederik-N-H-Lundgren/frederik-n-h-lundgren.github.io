@@ -1,5 +1,5 @@
 baseURL = "https://Frederik-N-H-Lundgren.github.io/frederik-n-h-lundgren.github.io"
-title = "Buy Stuff for your pet!!"
+title = "Co-purchases of pet supply items!"
 description = "This is a project description"
 relativeURLs = true
 theme = "theme" 
@@ -9,12 +9,12 @@ theme = "theme"
     data = "https://drive.google.com"
     github = "https://github.com/Frederik-N-H-Lundgren/frederik-n-h-lundgren.github.io"
     [[params.nav]]
-        label = "Data"
+        label = "Community"
         link = "/data-description"
     [[params.nav]]
-        label = "Network"
+        label = "Fun Facts"
         link = "/network-analysis"
     [[params.nav]]
-        label = "Text"
+        label = "Surprise"
         link = "/text-analysis"
 
