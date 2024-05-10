@@ -24,12 +24,12 @@ prev: network-analysis
   }
 </style>
 
-<img src="/images/joey1.png" class="large-image" />
+<img src="/images/joey1.jpg" class="large-image" />
 
 <div class="photo-grid">
-  <img src="/images/joey2.png" alt="Image 2" />
-  <img src="/images/joey3.png" alt="Image 3" />
-  <img src="/images/joey4.png" alt="Image 4" />
-  <img src="/images/joey5.png" alt="Image 5" />
-  <img src="/images/joey6.png" alt="Image 6" />
+  <img src="/images/joey2.jpg" alt="Image 2" />
+  <img src="/images/joey3.jpg" alt="Image 3" />
+  <img src="/images/joey4.jpg" alt="Image 4" />
+  <img src="/images/joey5.jpg" alt="Image 5" />
+  <img src="/images/joey6.jpg" alt="Image 6" />
 </div>
