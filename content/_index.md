@@ -6,7 +6,7 @@ next: data-description
 This webpage is an overview of our findings of our project on co-purchases of pet supplies, on Amazon. We did this project because of the love for our dog, and the knowledge that every pet brings happiness. But it is not always easy to know which toys to buy, or snacks to stock up on. This is why we wanted to analyze the co-purchase patterns of Amazon pet supplies and answer if there is a relationship between the price of a pet supply product and the sentiment of its reviews, and if higher-priced products tend to receive higher ratings compared to lower-priced alternatives.
 We also wanted to know which factors influence the purchasing patterns of pet supply customers, and how these factors affect the product review.
 
-Some people might now want the full analysis, and just want to know which items are commonly bought for their type of pet. Up in the corner you can find pages more dedicated to looking at commonly co-bought items for specific animals, and some more light and funny analysis of the graph, as well as a community analysis.
+Some people might now want the full analysis, and just want to know which items are commonly bought for their type of pet. Up in the corner you can find pages dedicated to looking at commonly co-bought items for specific animals and what we would recommend for you. There is also a descriptive analysis of the communities, as well as a little surprise for you!
 
 
 ![](/images/Arrow.png)
