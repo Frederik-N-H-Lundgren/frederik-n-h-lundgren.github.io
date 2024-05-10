@@ -4,7 +4,7 @@ prev: data-description
 next: text-analysis
 ---
 
-This page will be a good foundation for some items you might want to take a look at, when filling upi your basket on Amazon.
+This page will be a good foundation for some items you might want to take a look at, when filling up your basket on Amazon.
 
 Dog are the most commenly described animal in the network, and this should come as no surprise. The beloved four legged pet, that sparks joy in everyone. If you want to give some of that spark back to your dog, we highly recommend you to take a look at these next few items.
 ![](/images/dog.png)
